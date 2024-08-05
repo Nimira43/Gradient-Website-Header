@@ -55,10 +55,50 @@ html {
   top: -10%;
   left: -5%;
   background: linear-gradient(
-    var(--gold-l),
+    var(--orange-m),
     var(--orange-d));
   border-radius: 0 50% 50% 0;
   opacity: 0.5;
-  box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.5)''
-  
+  box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.5); 
+}
+
+.layer-2 {
+  width: 70%;
+  height: 140%;
+  position: absolute;
+  top: -10%;
+  left: -15%;
+  background: linear-gradient(
+    var(--orange-l),
+    var(--gold-l) 40%);
+  border-radius: 0 50% 50% 0;
+  box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.5);
+}
+
+.layer-3 {
+  width: 70%;
+  height: 130%;
+  position: absolute;
+  top: -10%;
+  left: -25%;
+  background: linear-gradient(
+    to right,
+    var(--gold-d),
+    var(--orange-d));
+  border-radius: 0 50% 50% 0;
+  opacity: 0.5;
+  box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.inner-layer {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to top right,
+    var(--orange-d),
+    var(--gold-l));
+  transform: translate(30rem, 15rem);
+  border-radius: 50%;
+
 }
